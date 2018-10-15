@@ -2,9 +2,8 @@
 
 traces=648
 tracesToSkip=0
-
-inputData="/media/sharath/Elements/RSF/inputData/MC1501-1396P1078.rsf"
-outputdir="/media/sharath/Elements/RSF/biased"
+inputData="/media/ebs_3tb/poc-machine-seis/rsf/MC1501-1396P1078.rsf"
+outputdir="/media/ebs_3tb/poc-machine-seis/data/biased"
 
 	for ((n=1; n<100 ;n++))
 	do

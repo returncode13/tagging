@@ -2,8 +2,8 @@
 #n=0
 channels=648
 totaltraces=11842848
-inputData="/media/sharath/Elements/RSF/inputData/MC1501-1396P1078.rsf"
-outputdir="/media/sharath/Elements/RSF/biased"
+inputData="/media/ebs_3tb/poc-machine-seis/rsf/MC1501-1396P1078.rsf"
+outputdir="/media/ebs_3tb/poc-machine-seis/data/biased"
 #for i in *.rsf
 #do
 	for ((n=1; n<$totaltraces/channels;n++))
