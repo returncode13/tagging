@@ -6,6 +6,6 @@ for f in `ls $inputdir`
 do
 
   output="filtered_"$f
-  sfbandpass < $inputdir/$f > $outputdir/$output flo=1 fhi=125 verb=y
+  sfbandpass < $inputdir/$f > $outputdir/$output flo=1 fhi=62.5 verb=y
   echo "bandpass on "$f
 done

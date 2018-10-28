@@ -10,7 +10,7 @@ outputdir="/media/ebs_3tb/poc-machine-seis/data/biased"
 	echo "Traces to skip "$tracesToSkip" channels= "$traces" n= "$n
 	output="shot_"$n".rsf"
 	#sfwindow < $inputData   f2=$tracesToSkip n2=$traces o1=0 o2=1 d1=0.004 d2=1 >$outputdir/$output
-	sfwindow < $inputData   f2=$tracesToSkip n2=$traces  >$outputdir/$output
+	sfwindow < $inputData   f2=$tracesToSkip n2=$traces j1=4  >$outputdir/$output
 	tracesToSkip=$tracesToSkip+$traces
 	#n=$((n+1))
 	done
