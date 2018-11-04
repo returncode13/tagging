@@ -1,6 +1,6 @@
 #!/bin/bash
-inputdir="/media/ebs_3tb/poc-machine-seis/data/biased"
-outputdir="/media/ebs_3tb/poc-machine-seis/data/filtered"
+inputdir="/media/ebs_3tb/poc-machine-seis/field_data/biased"
+outputdir="/media/ebs_3tb/poc-machine-seis/field_data/filtered"
 array=($(ls $inputdir/*))
 for f in `ls $inputdir`
 do
