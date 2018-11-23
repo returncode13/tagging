@@ -2,8 +2,8 @@
 
 traces=648
 tracesToSkip=0
-inputData="/media/ebs_3tb/poc-machine-seis/rsf/MC1501-1324P1084.rsf"
-outputdir="/media/ebs_3tb/poc-machine-seis/field_data/biased"
+inputData="/home/ubuntu/programming/data/rsf/MC1501-1348P1082.rsf"
+outputdir="/home/ubuntu/programming/data/rsf/biased"
 
 	for ((n=1; n<100 ;n++))
 	do
