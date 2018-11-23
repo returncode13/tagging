@@ -2,8 +2,8 @@
 
 traces=648
 tracesToSkip=0
-inputData="/home/ubuntu/programming/data/rsf/MC1501-1348P1082.rsf"
-outputdir="/home/ubuntu/programming/data/rsf/biased"
+inputData="/home/ubuntu/programming/data/rsf/MC1501-1396P1078.rsf"
+outputdir="/home/ubuntu/programming/data/rsf/field_data_to_test_cnn/biased"
 
 	for ((n=1; n<100 ;n++))
 	do

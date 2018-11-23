@@ -1,6 +1,6 @@
 #!/bin/bash
-inputdir="/home/ubuntu/programming/data/rsf/biased"
-outputdir="/home/ubuntu/programming/data/rsf/filtered"
+inputdir="/home/ubuntu/programming/data/rsf/field_data_to_test_cnn/biased"
+outputdir="/home/ubuntu/programming/data/rsf/field_data_to_test_cnn/filtered"
 array=($(ls $inputdir/*))
 for f in `ls $inputdir`
 do
